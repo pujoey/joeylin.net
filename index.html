@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+     <!-- Google font for Gloria Hallelujah -->
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href="/normalize.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <title>Joey Lin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    body {
+      background: linear-gradient(to right,  #4198CE 0%,#4198CE 50%,#F2D017 50%,#F2D017 100%); 
+    }
+    div {
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+    .jumbotron {
+      background: linear-gradient(to right,  #4198CE 0%,#4198CE 50%,#F2D017 50%,#F2D017 100%); 
+    }
+    .jumbotron h1 {
+      color: #fff;
+      text-align: center; 
+    }
+    .img-responsive {
+      max-width: 60%;
+      margin-left: 27%;
+      margin-top: -15%;
+      background: #fff;
+      border: 12px dashed #1b1a19;
+    }
+    @keyframes thumb {
+      0% { transform: scale(1); }
+      50% { transform: scale(0.9); }
+      100% { transform: scale(1); }
+    }
+    @-webkit-keyframes thumb {
+      0% { -webkit-transform: scale(1); }
+      50% { -webkit-transform: scale(0.9); }
+      100% { -webkit-transform: scale(1); }
+    }
+    @-moz-keyframes thumb {
+      0% { -moz-transform: scale(1); }
+      50% { -moz-transform: scale(0.9); }
+      100% { -moz-transform: scale(1); }
+    }
+    .img-responsive:hover {
+        animation-name: thumb;
+        animation-duration: 200ms;
+        transform-origin:50% 50%;
+        animation-iteration-count: 2;
+        animation-timing-function: linear;
+
+        -moz-animation-name: thumb;
+        -moz-animation-duration: 200ms;
+        -moz-transform-origin:50% 50%;
+        -moz-animation-iteration-count: 2;
+        -moz-animation-timing-function: linear;
+
+        -webkit-animation-name: thumb;
+        -webkit-animation-duration: 200ms;
+        -webkit-transform-origin:50% 50%;
+        -webkit-animation-iteration-count: 2;
+        -webkit-animation-timing-function: linear;
+    }
+    .col-sm-4 {
+      text-align: center; 
+      font-size: 200%;
+    }
+    .row h1 {
+      text-align: center; 
+    }
+    @media screen and (max-width: 400px) {
+     .img-responsive { display: none; }
+    
+    }
+
+    </style>
+  </head>
+  <body>
+
+<!-- nav bar -->    
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index1.html">Joey Lin</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html#profolio"><span class="glyphicon glyphicon-picture"></span> Profolio<span class="sr-only">(current)</span></a></li>
+        <li><a href="mailto:pujoey@gmail.com"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Email">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav> <!-- end of nav bar -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hi My Name is Joey Lin.<br>Welcome to My Page.</br></h1>
+      </div>
+    </div>      
+      <div class="row">
+        <div class="col-sm-4">
+          <h2><strong>Professional Profile</strong></h2>
+          <p>4 years of working as a manufacturing engineer at Foxconn with 3 years supervisory experience overseeing a team of 7 engineers.  While working I accumulated much experience in product knowledge, process optimization, lean & kaizen, automation, and new business planning.</p>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-responsive" src="http://i.imgur.com/L0ysHAF.jpg" alt="Chania">
+        </div>
+        <div class="col-sm-4">
+          <h2><strong>Contact ME</strong></h2>        
+          <p>609 Wrede Way, West Covina, CA 91791<br>Tel: (317) 938-2531</br></p>
+          <a href="mailto:pujoey@gmail.com"><p id="email">pujoey@gmail.com</p></a>
+        </div>
+      </div>
+
+
+      <!-- Adding profolio for interaction with nav profolio to jump to -->
+     <div id="profolio"> 
+     </div>
+
+      <!-- Adding Thumbnails -->
+      <div class="row">
+      <h1><strong>PROFOLIO</strong></h1>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <a href="http://dash.ga.co/pujoey/build-your-own-personal-website"><img src="http://imgur.com/0EhCObx.png" alt="..." width="304" height="236"></a>
+            <div class="caption">
+              <h3>Joey's website</h3>
+              <p>Personal touch on GA Dash project 'Anna Dowlin's website'. It also includes my resume. Good use on input field and submit buttom.</p>
+              <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Dislike</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <a href="http://dash.ga.co/pujoey/build-your-own-blog-theme"><img src="http://imgur.com/E1TajU6.png" alt="..." width="304" height="236"></a>
+            <div class="caption">
+              <h3>Joey's Blog</h3>
+              <p>Personal touch on the GA Dash project 'Jeff's blog' with nav menu on top instead and different jumbotron image. Good lesson on creating good readeable posts.</p>
+              <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Dislike</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <a href="http://dash.ga.co/pujoey/build-your-own-business-website"><img src="http://imgur.com/MfG9fjN.png" alt="..." width="304" height="236"></a>
+            <div class="caption">
+              <h3>Body Training</h3>
+              <p>Personal touch on GA Dash project 'Esha's restaurant' for personal trainer business webpage.  Good use of height property to show description.</p>
+              <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Dislike</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="thumbnail">
+            <a href="http://pujoey.tumblr.com/"><img src="http://i.imgur.com/zwT8BYf.png" alt="..." width="304" height="236"></a>
+            <div class="caption">
+              <h3>My Tumblr Page</h3>
+              <p>GA Dash project of Tumblr.  Interesting use of {blocks} to add different formats of posts like video, link, quotes, etc...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Like</a> <a href="#" class="btn btn-default" role="button">Dislike</a></p>
+            </div>
+          </div>
+        </div>        
+      </div>
+  </body>
+</html>
