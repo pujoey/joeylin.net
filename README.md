@@ -1,3 +1,4 @@
 # joeylin.net
 Personal website for Joey Lin
-//testing
+
+![Personal Website](https://i.imgur.com/bcNj6ly.png)
