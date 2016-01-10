@@ -31,6 +31,6 @@ $(window).scroll(function() {
     $('.navbar').css({"box-shadow": "none"});
   }
 
-
-
 });
+
+
