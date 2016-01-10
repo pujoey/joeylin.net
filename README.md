@@ -4,4 +4,4 @@ Personal website for Joey Lin showcasing projects and skills learned during time
 
 It includes Welcome, About Me, Projects, Contact section on the page.
 
-![Personal Website](https://i.imgur.com/bcNj6ly.png)
+![Personal Website](https://i.imgur.com/Xvyrzar.png)

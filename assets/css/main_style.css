@@ -3,7 +3,7 @@
   ********************************** */
 @font-face {
   font-family: "HOT-Ninja Std R";
-  src: url("font/Natural Writing Brush(HOT-Ninja Std R) Font-Traditional Chinese.otf") format("opentype");
+  src: url("../assets/font/Natural Writing Brush(HOT-Ninja Std R) Font-Traditional Chinese.otf") format("opentype");
 }
 
 .ninja {
@@ -15,7 +15,7 @@
   ********************************** */
 
 body {
-  background-image: url("../bg/bg_cream.png");
+  background-image: url("../assets/bg/bg_cream.png");
 }
 
 
