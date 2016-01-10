@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>three.js webgl - postprocessing - digital glitch</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      .glitch {
+        position: absolute;
+        z-index: 10;
+        color: #fff;
+        font-family: monospace;
+        text-align: center;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+        font-size: 100px;
+        font-family: "HOT-Ninja Std R", sans-serif;
+      }
+
+        @font-face {
+          font-family: "HOT-Ninja Std R";
+          src: url("font/Natural Writing Brush(HOT-Ninja Std R) Font-Traditional Chinese.otf") format("opentype");
+        }
+
+        #profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 40px;
+            border: 2px solid #fff;
+        }
+        h1 {
+          margin: 0px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- LOADING THREE.JS FILES -->
+    <script src="js/build/three.min.js"></script>
+    <script src="js/shaders/CopyShader.js"></script>
+    <script src="js/shaders/DigitalGlitch.js"></script>
+    <script src="js/postprocessing/EffectComposer.js"></script>
+    <script src="js/postprocessing/RenderPass.js"></script>
+    <script src="js/postprocessing/MaskPass.js"></script>
+    <script src="js/postprocessing/ShaderPass.js"></script>
+    <script src="js/postprocessing/GlitchPass.js"></script>
+
+    <div class="glitch">
+      <img src="images/joey.png" id="profile-pic">
+      <h1>JOEY LIN</h1>
+      <script src="js/glitch.js"></script>
+    </div>
+  </body>
+</html>
