@@ -18,6 +18,15 @@ body {
   background-image: url("../bg/bg_cream.png");
 }
 
+/* *********************************
+           Iframe View
+  ********************************** */
+iframe {
+    width: 100vw;
+  height: 100vh;
+}
+
+
 
 /* *********************************
            3D shadow Effect
