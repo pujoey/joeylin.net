@@ -44,6 +44,30 @@
 
   </script>
   <link rel="stylesheet" href="assets/css/main_style.css">
+  <script type="text/javascript">
+  (function() {
+    var html = document.getElementsByTagName('html')[0];
+    html.className += ' is-loading';
+
+    window.onload = function() {
+      html.className = String(html.className).replace('is-loading','');
+    }
+  }());
+  </script>
+
+  <style>
+  #loading {
+    display : none;
+    position : absolute;
+    width : 100%;
+    text-align : center;
+    top : 300px;
+  }
+
+  .is-loading #loading {
+    display: block;
+  }
+  </style>
 </head>
 <body>
 
@@ -491,6 +515,10 @@ Now, as an aspiring full-stack web developer, I hope to apply those same princip
     </p>
   </footer>
 
+  <div id="loading">
+      <!-- loading image to see while loading background image -->
+      <img src="assets/images/loading.gif" >
+  </div>
 
   <script src="assets/js/main.js"></script>
 </body>
