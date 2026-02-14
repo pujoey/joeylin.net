@@ -1,4 +1,3 @@
-console.log("glitch init");
 var camera, scene, renderer, composer;
 var object, light;
 

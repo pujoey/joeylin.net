@@ -3,7 +3,7 @@
   ********************************** */
 @font-face {
   font-family: "HOT-Ninja Std R";
-  src: url("../assets/font/Natural Writing Brush(HOT-Ninja Std R) Font-Traditional Chinese.otf") format("opentype");
+  src: url("../font/Natural Writing Brush(HOT-Ninja Std R) Font-Traditional Chinese.otf") format("opentype");
 }
 
 .ninja {
@@ -15,6 +15,7 @@
   ********************************** */
 
 body {
+  background-color: #f5f0e6;
   background-image: url("../bg/bg_cream.png");
 }
 
@@ -201,16 +202,6 @@ h2 {
 .timeline > li {
   margin-bottom: 20px;
   position: relative;
-}
-
-.timeline > li:before,
-.timeline > li:after {
-  content: " ";
-  display: table;
-}
-
-.timeline > li:after {
-  clear: both;
 }
 
 .timeline > li:before,
